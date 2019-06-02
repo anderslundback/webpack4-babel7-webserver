@@ -19,7 +19,7 @@ export default {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Custom template',
+            title: "Anders' webpack4 babel7 js sandbox",
             template: path.join(__dirname, 'src/index.template.html')
         }),
         new ScriptExtHtmlWebpackPlugin({
